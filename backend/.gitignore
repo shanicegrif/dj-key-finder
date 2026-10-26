@@ -1,0 +1,17 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local saved library data (may contain personal test data)
+backend/library-data.json
+
+# Operating system files
+.DS_Store
